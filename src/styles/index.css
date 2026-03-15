@@ -1,0 +1,13 @@
+@import './fonts.css';
+@import './tailwind.css';
+@import './theme.css';
+
+/* Slick carousel custom styles */
+.slick-dots li button:before {
+  color: #28A745 !important;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #28A745 !important;
+  opacity: 1 !important;
+}
